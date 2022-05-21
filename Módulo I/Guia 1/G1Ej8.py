@@ -1,0 +1,5 @@
+n = input("Ingrese un número entero")
+m = input("Ingrese otro número entero")
+c = int(n) / int(m)
+r = int(int(n) - (int(m) * int(c)))
+print(f"La división entre {n} y {m}, da un cociente {round(c)} y un resto {round(r)}")

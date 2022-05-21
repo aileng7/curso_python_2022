@@ -1,0 +1,6 @@
+pan_no_fresco = input("Ingrese la cantidad de barras de pan vendidas que no son del dia.")
+precio_habitual = round((int(pan_no_fresco) * 3.49), 2)
+descuento = round((float(precio_habitual * 0.6)), 2)
+precio_final = round((float(precio_habitual - descuento)), 2)
+print(f"El precio de la barra de pan es {precio_habitual}, el descuento por no ser del dia es {descuento}.")
+print(f"El total a pagar es {precio_final}.")

@@ -1,0 +1,5 @@
+capital = input("Ingrese el capital a invertir")
+tasa = input("Ingrese la tasa de interés anual en decimales")
+years = input("Ingrese la cantidad de años que invertirá el capital")
+interes = (float(capital) * float(tasa) * int(years))
+print(round(interes, 2))
