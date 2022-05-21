@@ -1,7 +1,6 @@
 from Modulo2.TP.Botella import Botella
 from Modulo2.TP.Viaje import Viaje
 
-
 class Deposito:
     def __init__(self, balance: float, stock: list[Botella], viajes: list[Viaje]):
         self.__balance = balance
@@ -18,3 +17,5 @@ class Deposito:
 
     def cierre_mensual(self) -> None:
         pass
+#prueba
+
